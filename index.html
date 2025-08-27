@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APNA WEATHER CITY </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="overlay"></div>
+  <div class="container">
+    <h1>🌤️ Weather City</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button onclick="getWeather()">Get Weather</button>
+    <div id="weatherInfo"></div>
+
+    <h3>Special Weather</h3>
+    <div class="city-list">
+      <button onclick="getWeather('New Delhi')">New Delhi</button>
+      <button onclick="getWeather('Berlin')">Berlin</button>
+      <button onclick="getWeather('Tokyo')">Tokyo</button>
+      <button onclick="getWeather('London')">London</button>
+      <button onclick="getWeather('New York')">New York</button>
+      <button onclick="getWeather('Sydney')">Sydney</button>
+      <button onclick="getWeather('Paris')">Paris</button>
+      <button onclick="getWeather('Dubai')">Dubai</button>
+      <button onclick="getWeather('Berlin')">Berlin</button>
+      <button onclick="getWeather('Toronto')">Toronto</button>
+      <button onclick="getWeather('Spain')">Spain</button>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
